@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    text-align: center;
+    padding: 30px 50px 0 0;
+}
+nav > a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+section{
+    color: #fff;
+    text-align: center;
+}
+h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 92px;
+    padding: 80px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+header {
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.671), hsla(317, 45%, 52%, 0.644)), url(../imagen/todo-sobre-xbox-live.webp);
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.671), hsla(317, 45%, 52%, 0.644)), url(../imagen/todo-sobre-xbox-live.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrap{
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+}
+.store-wrapper{
+    display: flex;
+}
+.category_list{
+    display: flex;
+    flex-direction: column;
+    width: 18%
+}
+.category_list >.category_item{
+    display: block;
+    width: 90%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    background: #bc4e9c;
+    text-align: center;
+    text-decoration: none;
+    color:#fff
+}
+.category_list > .ct_item-active{
+    background: rgb(0, 0, 0);
+}
+
+/*productos---------*/
+
+.products-list{
+    width: 82%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products-list>.product-item{
+    width: 22%;
+    margin-left: 3%;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 6px 0px rgba(94, 92, 92, 0.747);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    transition: all .4s;
+}
+.products-list>.product-item img{
+    width: 100%;
+}
+.products-list>.product-item a{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background: #bc4e9c;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+/*footer===================*/
+footer{
+    width: 100%;
+    padding: 200px 0px;
+    background-image: url(../imagen/wave.svg);
+    background-size: cover;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.box_footer>.logo img{
+    width: 200px;
+}
+.box_footer>.terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+}
+.box_footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+.box_footer a{
+    margin-top: 10px;
+    color: #343434;
+    font-weight: 600;
+}
+.box_footer a:hover{
+    opacity: 0.8;
+}
+.box_copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box_copyright p{
+    margin-top: 20px;
+    color: #fffdfd;
+}
+.box_copyright hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(3, 3, 3);
+}
