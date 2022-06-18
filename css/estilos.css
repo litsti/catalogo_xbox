@@ -45,7 +45,7 @@ body{
 }
 .store-wrapper{
     display: flex;
-    padding-top: 50px;
+    padding: 50px;
 }
 .category_list{
     display: flex;
